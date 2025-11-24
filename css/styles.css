@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+nav {
+    background-color: rgb(246, 246, 246);
+}
+
+nav div a span {
+    color: rgb(202, 206, 15);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.nav-item {
+    transition: transform 0.2s ease-in-out;
+    padding: 0px 7px
+}
+
+.nav-item:hover {
+    transform: translateY(-3px); 
+}
+
+div #navbarNav {
+    font-size: 1.3rem;
+    color: rgb(31, 31, 31);
+}
+
+.dropdown-menu {
+    background-color: rgb(246, 246, 246);
+    border: 1px solid #999999;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.dropdown-item {
+    padding: 5px 10px; 
+}
+
+.dropdown-item:hover {
+    background-color: rgb(202, 206, 15);
+}
