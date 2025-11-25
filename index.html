@@ -68,11 +68,9 @@
                         </div><!-- .carousel-inner -->
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
                         </button>
                     </div>
                 </div>
@@ -198,25 +196,38 @@
         </main><!-- .container -->
         <footer>
             <div class="container">
-                <h3>References and Sources</h3>
-                <div>
-                    <p>Content Citations</p>
-                    <div class="row">
-                        <div class="col-lg-10">
-                            <ul>
-                                <li>
-                                    <a href="https://www.amazon.ca/Little-Book-Ikigai-secret-Japanese-ebook/dp/B079WVLH8Y/ref=sr_1_45?crid=3QOT6O9F33FAH&dib=eyJ2IjoiMSJ9.rZ5zymRXfhU8dEWLkoySxz8Ngqp7O2aJYfdcKYM9oBF5oltL6YtJoBwA_eKHbU_l2IITpzGbm2x47ncfKJKWlt9fba_foKtR52u4-txYjrcf5sUUl7LaWu2ZhVEO1_eHEN26skgtuTIJS7w0vavBEWtnjD40AF_vbQ5io630FsWFDmhC3Hs6xGmUzJOo29Q2.etEnFkxatx2A4UniK-WkI4nf71DByN6Jmtp1bxxHVss&dib_tag=se&keywords=japanese+books&qid=1764019203&s=digital-text&sprefix=japanese+books%2Cdigital-text%2C103&sr=1-45&xpid=CVoEZRVDLFnnj">Book & Review Source</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.japan.go.jp/kizuna/2022/03/ikigai_japanese_secret_to_a_joyful_life.html">Content & Image Source</a>
-                                </li>
-                                <li>
-                                    <a href="https://ikigaitribe.com/podcasts/podcast06/">Author & Content Source</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div><!-- .row -->
-                </div>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="references-tab" data-bs-toggle="tab" data-bs-target="#references" type="button" role="tab" aria-controls="references" aria-selected="true">References & Sources</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="publisher-tab" data-bs-toggle="tab" data-bs-target="#publisher" type="button" role="tab" aria-controls="publisher" aria-selected="false">Publisher Info</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="tabContent">
+                    <div class="tab-pane fade show active" id="references" role="tabpanel" aria-labelledby="references-tab">
+                        <p>Content Citations</p>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.amazon.ca/Little-Book-Ikigai-secret-Japanese-ebook/dp/B079WVLH8Y/ref=sr_1_45?crid=3QOT6O9F33FAH&dib=eyJ2IjoiMSJ9.rZ5zymRXfhU8dEWLkoySxz8Ngqp7O2aJYfdcKYM9oBF5oltL6YtJoBwA_eKHbU_l2IITpzGbm2x47ncfKJKWlt9fba_foKtR52u4-txYjrcf5sUUl7LaWu2ZhVEO1_eHEN26skgtuTIJS7w0vavBEWtnjD40AF_vbQ5io630FsWFDmhC3Hs6xGmUzJOo29Q2.etEnFkxatx2A4UniK-WkI4nf71DByN6Jmtp1bxxHVss&dib_tag=se&keywords=japanese+books&qid=1764019203&s=digital-text&sprefix=japanese+books%2Cdigital-text%2C103&sr=1-45&xpid=CVoEZRVDLFnnj">Book & Review Source</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.japan.go.jp/kizuna/2022/03/ikigai_japanese_secret_to_a_joyful_life.html" class="text-white text-decoration-underline">Content & Image Source</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://ikigaitribe.com/podcasts/podcast06/" class="text-white text-decoration-underline">Author & Content Source</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!-- .row -->
+                    </div>
+                    <div class="tab-pane fade" id="publisher" role="tabpanel" aria-labelledby="references-tab">
+                        <p>Publisher: Quercus</p>
+                        <p>Publication Date: Sept. 7 2017</p>
+                    </div>
+                </div><!-- .tab-content -->
                 <p>&copy; 2025 Ikigai</p>
             </div><!-- .container -->
         </footer>

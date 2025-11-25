@@ -1,5 +1,21 @@
 @charset "utf-8";
 
+@font-face {
+	font-family: "Grian";
+	src: url('fonts/grian-webfont.woff2') format('woff2'),
+		 url('fonts/grian-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Beauty Starlight";
+	src: url('fonts/BeautyStarlight-Regular-webfont.woff2') format('woff2'),
+		 url('fonts/BeautyStarlight-Regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 nav {
     background-color: rgb(246, 246, 246);
 }
@@ -8,6 +24,7 @@ nav div a span {
     color: rgb(202, 206, 15);
     font-size: 2.5rem;
     font-weight: 600;
+    font-family: "Grain";
 }
 
 .nav-item {
@@ -22,6 +39,7 @@ nav div a span {
 div #navbarNav {
     font-size: 1.3rem;
     color: rgb(31, 31, 31);
+    text-align: right;
 }
 
 .dropdown-menu {
@@ -39,3 +57,238 @@ div #navbarNav {
     background-color: rgb(202, 206, 15);
 }
 
+main {
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #333;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    font-family: "Beauty Starlight";
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(31, 31, 31);
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(202, 206, 15);
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(31, 31, 31);
+    margin-top: 15px;
+}
+
+p {
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.col-lg-5.col-md-5 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#diagram img {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #fff;
+}
+
+#author + img {
+    max-width: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 2px solid rgb(202, 206, 15);
+}
+
+#carousel {
+    margin-top: 20px;
+}
+
+#carousel .carousel-item {
+    text-align: center;
+}
+
+#carousel img {
+    max-width: 80%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 10px;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+#carousel p {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#buynow .form-group {
+    margin-bottom: 15px;
+}
+
+#buynow label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#buynow .form-control {
+    border-radius: 0.25rem;
+}
+
+#buynow .btn-primary {
+    background-color: rgb(202, 206, 15);
+    border-color: rgb(202, 206, 15);
+    color: #333;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: background-color 0.2s;
+}
+
+#buynow .btn-primary:hover {
+    background-color: rgb(170, 174, 12);
+    border-color: rgb(170, 174, 12);
+    color: #333;
+}
+
+.accordion-button {
+    color: #333;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #333;
+    background-color: rgb(202, 206, 15);
+    box-shadow: none;
+}
+
+.accordion-body p {
+    margin-bottom: 0;
+    padding: 0 10px;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#reviews {
+    background-color: #fff;
+    padding: 40px 0;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+}
+
+#reviews h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgb(202, 206, 15);
+    padding-bottom: 10px;
+    display: block;
+}
+
+#reviews section.col-lg-4 > div {
+    padding: 20px;
+    background-color: #f6f6f6;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#reviews section p:last-of-type {
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #555;
+    text-align: right;
+}
+
+footer {
+    background-color: #343a40;
+    color: #f8f9fa; 
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+footer .nav-tabs {
+    border-bottom: 1px solid #495057;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer .nav-link {
+    color: #adb5bd;
+    border: none;
+    border-bottom: 3px solid transparent;
+    background-color: transparent;
+    transition: color 0.3s, border-bottom 0.3s;
+    margin: 0 5px;
+    padding: 10px 15px;
+}
+
+footer .nav-link.active {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #007bff;
+    font-weight: 600;
+}
+
+footer .tab-content {
+    background-color: #495057;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer .tab-pane ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer .tab-pane li {
+    margin-bottom: 8px;
+}
+
+footer .tab-pane a {
+    color: #ced4da;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+footer .tab-pane a:hover {
+    color: #007bff;
+}
+
+footer > .container > p {
+    text-align: center;
+    color: #bacbd6;
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
